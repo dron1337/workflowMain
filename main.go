@@ -104,6 +104,7 @@ func main() {
 	}
 	defer db.Close()
 	fmt.Println("Run main")
+	fmt.Println("Run main")
 	store := NewParcelStore(db)
 	service := NewParcelService(store)
 
